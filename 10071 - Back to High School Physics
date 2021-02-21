@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
+
+    int v, t, s;
+    // End of File
+    while (scanf("%d %d", &v, &t) != EOF)
+    {
+        s = 2 * v * t;
+        printf("%d\n", s);
+    }
+    return 0;
+}
