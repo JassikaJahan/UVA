@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string e;
+    while(getline(cin,e)){
+        cout<<e<<endl;
+    }
+    return 0;
+}
